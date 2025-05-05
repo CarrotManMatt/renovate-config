@@ -51,7 +51,7 @@
             ]
         },
         {
-            "description": "Update renovatebot's pre-commit hooks Tuesday mornings",
+            "description": "Update frequently changing pre-commit hooks on Tuesday mornings",
             "matchManagers": [
                 "pre-commit"
             ],
