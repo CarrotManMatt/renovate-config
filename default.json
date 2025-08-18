@@ -13,6 +13,10 @@
         "replacements:all",
         "workarounds:all"
     ],
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/bower_components/**"
+    ],
     "labels": [
         "dependencies"
     ],
@@ -66,6 +70,14 @@
         }
     ],
     "prHourlyLimit": 5,
+    "pep621": {
+        "ignorePaths": [
+            "**/.pypi-redirects/**",
+            "**/vendor/**",
+            "**/examples/**",
+            "**/__fixtures__/**"
+        ]
+    },
     "pre-commit": {
         "enabled": true
     },
