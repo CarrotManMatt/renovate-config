@@ -1,5 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "abandonmentThreshold": "1 year",
     "assignAutomerge": true,
     "configMigration": true,
     "dependencyDashboard": true,
